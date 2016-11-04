@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.herve.customviewsdemo.MainActivity">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        />
+
+    <com.example.herve.customviewsdemo.wediget.MaskView
+        android:id="@+id/maskView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:hollow_alignParentBottom="false"
+        app:hollow_alignParentRight="false"
+        app:hollow_alpha="0.5"
+        app:hollow_centerHorizontal="true"
+        app:hollow_clear_square="false"
+        app:hollow_height="100dp"
+        app:hollow_margin_left="0dp"
+        app:hollow_margin_right="0dp"
+        app:hollow_margin_top="0dp"
+        app:hollow_mask_color="@color/colorPrimary"
+        app:hollow_mask_orientation="below"
+        app:hollow_src="@mipmap/ic_launcher"
+        app:hollow_width="100dp"/>
+</RelativeLayout>

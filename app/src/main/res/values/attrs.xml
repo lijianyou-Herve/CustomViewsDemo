@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--name为声明的"属性集合"名，可以随便取，但是最好是设置为跟我们的View一样的名称-->
+    <!--声明我们的属性，名称为default_size,取值类型为尺寸类型（dp,px等）-->
+    <declare-styleable name="maskView">
+        <attr name="hollow_width" format="dimension"/>
+        <attr name="hollow_height" format="dimension"/>
+        <attr name="hollow_margin_left" format="dimension"/>
+        <attr name="hollow_margin_right" format="dimension"/>
+        <attr name="hollow_margin_top" format="dimension"/>
+        <attr name="hollow_src" format="reference"/>
+        <attr name="hollow_clear_square" format="boolean"/>
+        <attr name="hollow_alpha" format="float"/>
+        <attr name="hollow_mask_color" format="color"/>
+        <attr name="hollow_alignParentBottom" format="boolean"/>
+        <attr name="hollow_alignParentRight" format="boolean"/>
+        <attr name="hollow_alignParentCenter" format="boolean"/>
+        <attr name="hollow_centerVertical" format="boolean"/>
+        <attr name="hollow_centerHorizontal" format="boolean"/>
+        <attr name="hollow_mask_orientation">
+            <enum name="below" value="1"/>
+            <enum name="above" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
