@@ -6,3 +6,4 @@
  * 目前还不是非常的完善，须后继续完善多View包裹的队列和提示指示箭头
 
 ![image text](https://github.com/lijianyou-Herve/CustomViewsDemo/blob/master/screenshot/device-2016-11-04-142742.png)
+![image text](https://github.com/lijianyou-Herve/CustomViewsDemo/blob/master/screenshot/device-2016-11-04-143946.png)
