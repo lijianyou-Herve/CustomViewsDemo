@@ -6,11 +6,14 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context="com.example.herve.customviewsdemo.MainActivity">
 
     <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
         android:background="@color/colorAccent"
         />
 
@@ -22,14 +25,15 @@
         app:hollow_alignParentBottom="false"
         app:hollow_alignParentRight="false"
         app:hollow_alpha="0.5"
-        app:hollow_centerHorizontal="true"
-        app:hollow_clear_square="false"
+        app:hollow_centerHorizontal="false"
+        app:hollow_clear_square="true"
         app:hollow_height="100dp"
-        app:hollow_margin_left="0dp"
+        app:hollow_margin_left="20dp"
         app:hollow_margin_right="0dp"
-        app:hollow_margin_top="0dp"
+        app:hollow_margin_top="20dp"
         app:hollow_mask_color="@color/colorPrimary"
         app:hollow_mask_orientation="below"
         app:hollow_src="@mipmap/ic_launcher"
         app:hollow_width="100dp"/>
+    <!--hollow_clear_square 属性在布局预览是填ture 在准备运行的时候填false-->
 </RelativeLayout>
